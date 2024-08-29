@@ -1,10 +1,11 @@
 import { ThemeProvider } from 'styled-components'
 import { defaultTheme } from './components/styles/themes/default'
+import { Home } from './pages/Home'
 
 export function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
-      <h1>Hello world!</h1>
+      <Home />
     </ThemeProvider>
   )
 }
